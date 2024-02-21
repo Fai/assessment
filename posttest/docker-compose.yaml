@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: assessment
+      POSTGRES_PASSWORD: assessment
+      POSTGRES_DB: assessment
+    ports:
+      - 5432:5432
+    volumes:
+      - ./data:/var/lib/postgresql/data
