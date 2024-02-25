@@ -12,3 +12,20 @@ services:
       - 5432:5432
     volumes:
       - ./data:/var/lib/postgresql/data
+    networks:
+      - posttest-network
+  backend:
+    build: ./
+    restart: always
+    ports:
+      - 8888:8888
+    depends_on:
+      - db
+    environment:
+      - DATABASE_URL=jdbc:postgresql://assessment:assessment@db:5432/assessment
+    networks:
+      - posttest-network
+
+networks:
+  posttest-network:
+    driver: bridge
