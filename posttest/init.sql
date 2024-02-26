@@ -6,8 +6,7 @@ DROP TABLE IF EXISTS user_ticket CASCADE;
 -- Create tables
 CREATE TABLE users (
     id SERIAL PRIMARY KEY,
-    username VARCHAR(255) NOT NULL,
-    password VARCHAR(255) NOT NULL
+    role VARCHAR(255) NOT NULL
 );
 
 CREATE TABLE lotteries (
@@ -19,8 +18,8 @@ CREATE TABLE lotteries (
 CREATE TABLE user_ticket (
     id SERIAL PRIMARY KEY,
     user_id INT NOT NULL,
-    lottery_id INT NOT NULL,
+    ticket_id INT NOT NULL,
     FOREIGN KEY (user_id) REFERENCES users(id),
-    FOREIGN KEY (lottery_id) REFERENCES lotteries(id)
+    FOREIGN KEY (ticket_id) REFERENCES lotteries(id)
 );
 
