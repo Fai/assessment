@@ -1,9 +1,6 @@
 package com.kbtg.bootcamp.posttest.lottery;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
-import jakarta.persistence.Column;
+import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 import lombok.*;
@@ -16,13 +13,14 @@ import lombok.*;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-@Table(name = "lottery")
+@Table(name = "lotteries")
 public class Lottery {
 
     @Id
-    @Column(name = "ticket_id")
-    @Size(min = 6, max = 6, message = "ticketId must be 6 characters")
-    private String ticketId;
+    @Column(name = "id")
+    @Size(min = 6, max = 6, message = "Lottery ticket id must be 6 characters")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private String id;
 
     @NotNull
     private Integer price;

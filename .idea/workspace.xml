@@ -4,35 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a81740c-bd0c-4c44-a58a-7323541ee5ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/assessment.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/posttest.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/exception/ApiExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/exception/ApiExceptionResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/exception/InternalServiceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/exception/NotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/lottery/Lottery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/lottery/LotteryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/lottery/LotteryListResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/lottery/LotteryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/lottery/LotteryRequestDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/lottery/LotteryResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/lottery/LotteryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/security/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/user/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/user/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/posttest/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posttest/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/posttest/.gitignore" afterDir="false" />
+    <list default="true" id="3a81740c-bd0c-4c44-a58a-7323541ee5ce" name="Changes" comment="feat: init sql and database set up">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posttest/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/swagger/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/user/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qodana.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/posttest.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/posttest.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posttest/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/posttest/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/posttest/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/posttest/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posttest/init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/posttest/init.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/PosttestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/PosttestApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/exception/ApiExceptionResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/exception/ApiExceptionResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/exception/InternalServiceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/exception/InternalServiceException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/exception/NotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/exception/NotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/lottery/Lottery.java" beforeDir="false" afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/lottery/Lottery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/lottery/LotteryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/lottery/LotteryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/lottery/LotteryListResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/lottery/LotteryListResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/lottery/LotteryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/lottery/LotteryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/lottery/LotteryRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/lottery/LotteryRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/lottery/LotteryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/lottery/LotteryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/user/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posttest/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/posttest/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,20 +69,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Fai"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Fai&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -97,8 +95,22 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/lottery/LotteryRepository.java" root0="SKIP_INSPECTION" />
   </component>
+  <component name="KubernetesApiProvider">{
+  &quot;contexts&quot;: [
+    {
+      &quot;name&quot;: &quot;rancher-desktop&quot;
+    }
+  ],
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="KubernetesSettings">
+    <option name="contextName" value="rancher-desktop" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -111,9 +123,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Database Script.init.sql.executor": "Run",
+    "Docker.posttest/docker-compose.yaml: Compose Deployment.executor": "Run",
+    "Gradle.Build posttest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.PosttestApplication.executor": "Run",
     "git-widget-placeholder": "dev",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -124,21 +139,48 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
       "postgresql"
+    ],
+    "RunConfigurationTargetLRU": [
+      "222b07e9-43df-42b3-9863-3509eba289b1"
     ]
   }
 }]]></component>
+  <component name="QodanaHighlightedReportService">
+    <option name="localRunNotPublishedPersistedInfo">
+      <LocalReportPersistedInfo>
+        <option name="path" value="/private/var/folders/tv/9gmdd36d4ms4p04shtd09_b40000gn/T/qodana_output/qodana.sarif.json" />
+        <option name="reportGuid" value="615e6bc7-a2de-4a9f-8f7d-37e0cb5885e2" />
+        <option name="reportName" value="assessment/qodana/2024-02-26" />
+      </LocalReportPersistedInfo>
+    </option>
+  </component>
+  <component name="QodanaIsSelectedPersistenceService">
+    <option name="selectedOrLoading" value="true" />
+  </component>
+  <component name="QodanaReportsService">
+    <option name="descriptions">
+      <ReportDescription localRun="true" path="/private/var/folders/tv/9gmdd36d4ms4p04shtd09_b40000gn/T/qodana_output/qodana.sarif.json" reportGuid="615e6bc7-a2de-4a9f-8f7d-37e0cb5885e2" reportId="assessment/qodana/2024-02-26" />
+    </option>
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/swagger" />
       <recent name="$PROJECT_DIR$/posttest" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.PosttestApplication">
+    <configuration name="init.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/posttest/init.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="222b07e9-43df-42b3-9863-3509eba289b1" />
+      <method v="2" />
+    </configuration>
     <configuration name="PosttestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="posttest.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kbtg.bootcamp.posttest.PosttestApplication" />
@@ -146,6 +188,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml" />
+      <method v="2" />
+    </configuration>
+    <configuration name="posttest/docker-compose.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="envFilePath" value="" />
+          <option name="sourceFilePath" value="posttest/docker-compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Database Script.init.sql" />
+        <item itemvalue="Docker.posttest/docker-compose.yaml: Compose Deployment" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -171,22 +232,52 @@
       <workItem from="1708777748974" duration="1514000" />
       <workItem from="1708781486167" duration="1186000" />
       <workItem from="1708864274337" duration="1998000" />
-      <workItem from="1708869078388" duration="7508000" />
+      <workItem from="1708869078388" duration="10161000" />
+      <workItem from="1708920842847" duration="15230000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: REST API">
+      <option name="closed" value="true" />
+      <created>1708881442947</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708881442947</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: Exception">
+      <option name="closed" value="true" />
+      <created>1708881458727</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708881458727</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: docker-compose with networks">
+      <option name="closed" value="true" />
+      <created>1708881486048</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708881486048</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: init sql and database set up">
+      <option name="closed" value="true" />
+      <created>1708924559759</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708924559759</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/lottery/LotteryController.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: REST API" />
+    <MESSAGE value="feat: Exception" />
+    <MESSAGE value="feat: docker-compose with networks" />
+    <MESSAGE value="feat: init sql and database set up" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: init sql and database set up" />
   </component>
 </project>

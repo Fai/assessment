@@ -10,7 +10,18 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 public class LotteryRequestDto {
-    private String ticketId;
+    private String id;
     private Integer price;
     private Integer amount;
+
+    public String getId() {
+        return id;
+    }
+    public Integer getPrice() {
+        return price;
+    }
+
+    public Integer getAmount() {
+        return amount;
+    }
 }

@@ -10,8 +10,8 @@ public class PosttestApplication {
 		SpringApplication.run(PosttestApplication.class, args);
 	}
 
-	@Bean
-	public SQLService sqlService() {
-		return new PostgresSQLService postgresSQLService();
-	}
+//	@Bean
+//	public SQLService sqlService() {
+//		return new PostgresSQLService postgresSQLService();
+//	}
 }

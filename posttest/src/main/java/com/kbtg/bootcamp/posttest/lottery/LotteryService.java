@@ -13,21 +13,19 @@ public class LotteryService {
         this.lotteryRepository = lotteryRepository;
     }
 
-    public LotteryListResponseDto getLotteries() {
-        List<Lottery> lotteryList = lotteryRepository.findAll();
-        return new LotteryListResponseDto(lotteryRepository.findAll()
-                .stream()
-                .map(Lottery::getTicketId)
-                .collect(Collectors.toList()));
+    public List<String> findAllLottery() {
+        return this.lotteryRepository.findAll()
+            .stream()
+            .map(Lottery::getId)
+            .collect(Collectors.toList());
     }
 
-    public LotteryResponseDto createLottery(LotteryRequestDto request) {
-        Optional<Lottery> optionalTicket = lotteryRepository.findByTicketId(request.getTicketId());
-        if (optionalTicket.isPresent()) {
-            throw new IllegalArgumentException("TicketId already exists");
-        }
-        Lottery lottery = new Lottery(request.getTicketId());
+    public Lottery createLottery(LotteryRequestDto requestDto) {
+        Lottery lottery = new Lottery();
+        lottery.setId(requestDto.getId());
+        lottery.setPrice(requestDto.getPrice());
+        lottery.setAmount(requestDto.getAmount());
         lotteryRepository.save(lottery);
-        return new LotteryResponseDto(lottery.getTicketId());
+        return lottery;
     }
 }

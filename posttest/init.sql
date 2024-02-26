@@ -12,7 +12,7 @@ CREATE TABLE users (
 
 CREATE TABLE lotteries (
     id SERIAL PRIMARY KEY,
-    price INTEGER NOT NULL
+    price INTEGER NOT NULL,
     amount INTEGER NOT NULL
 );
 
