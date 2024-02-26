@@ -22,10 +22,10 @@
 - [x] database connection
 ## Restful API CRUD
 - [x] GET /lotteries
-- [ ] POST /users/:userId/lotteries/:ticketId
-- [ ] GET /users/:userId/lotteries
-- [ ] DELETE /users/:userId/lotteries/:ticketId
-- [ ] response status code
+- [x] POST /users/:userId/lotteries/:ticketId
+- [x] GET /users/:userId/lotteries
+- [x] DELETE /users/:userId/lotteries/:ticketId
+- [x] response status code
 ## Admin
 - [x] POST /admin/lotteries
 - [x] validate data
