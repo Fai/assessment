@@ -1,31 +1,17 @@
-version: '3.8'
+version: '3'
 
 services:
-  db:
-    image: postgres
-    restart: always
+  postgres:
+    image: postgres:latest
     environment:
-      POSTGRES_USER: assessment
-      POSTGRES_PASSWORD: assessment
-      POSTGRES_DB: assessment
-    ports:
-      - 5432:5432
+      POSTGRES_DB: postgres
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres180
     volumes:
-      - ./data:/var/lib/postgresql/data
-    networks:
-      - posttest-network
-  backend:
-    build: ./
-    restart: always
+      # - pgdata:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
     ports:
-      - 8888:8888
-    depends_on:
-      - db
-    environment:
-      - DATABASE_URL=jdbc:postgresql://assessment:assessment@db:5432/assessment
-    networks:
-      - posttest-network
+      - "5432:5432"
 
-networks:
-  posttest-network:
-    driver: bridge
+volumes:
+  pgdata:
