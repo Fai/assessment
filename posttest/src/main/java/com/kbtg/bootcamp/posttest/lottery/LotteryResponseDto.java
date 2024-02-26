@@ -10,5 +10,5 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 public class LotteryResponseDto {
-    private String ticketId;
+    private String id;
 }

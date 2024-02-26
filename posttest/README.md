@@ -21,29 +21,29 @@
 - [x] users table
 - [x] database connection
 ## Restful API CRUD
-- [ ] GET /lotteries
+- [x] GET /lotteries
 - [ ] POST /users/:userId/lotteries/:ticketId
 - [ ] GET /users/:userId/lotteries
 - [ ] DELETE /users/:userId/lotteries/:ticketId
 - [ ] response status code
 ## Admin
-- [ ] POST /admin/lotteries
-- [ ] validate data
-- [ ] protect admin route
+- [x] POST /admin/lotteries
+- [x] validate data
+- [x] protect admin route
 ## docker Container
-- [ ] docker container
-- [ ] docker-compose
-- [ ] containerize
+- [x] docker container
+- [x] docker-compose
+- [x] containerize
 ## code quality
 - [ ] unit test - case coverage
 - [ ] proper type declaration
 - [ ] test cases
-- [ ] proper transaction
+- [x] proper transaction
 - [ ] code maintenance
 - [ ] readability
 - [ ] app layer
-- [ ] no nested if
-- [ ] no duplicate code
+- [x] no nested if
+- [x] no duplicate code
 - [ ] method parameter
 - [ ] data governance
 - [ ] clean up code

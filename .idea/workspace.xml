@@ -4,32 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a81740c-bd0c-4c44-a58a-7323541ee5ce" name="Changes" comment="feat: init sql and database set up">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/posttest/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/swagger/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/user/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/user/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qodana.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/posttest.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/posttest.main.iml" afterDir="false" />
+    <list default="true" id="3a81740c-bd0c-4c44-a58a-7323541ee5ce" name="Changes" comment="fix: Lottery Class with Dto">
+      <change afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/lottery/LotteriesResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/userticket/UserTicket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/userticket/UserTicketController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/userticket/UserTicketRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/userticket/UserTicketRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/userticket/UserTicketResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/userticket/UserTicketService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/userticket/UserTicketsResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posttest/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/posttest/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posttest/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/posttest/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posttest/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/posttest/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/posttest/init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/posttest/init.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/PosttestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/PosttestApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/exception/ApiExceptionResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/exception/ApiExceptionResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/exception/InternalServiceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/exception/InternalServiceException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/exception/NotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/exception/NotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/lottery/Lottery.java" beforeDir="false" afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/lottery/Lottery.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/lottery/LotteryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/lottery/LotteryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/lottery/LotteryListResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/lottery/LotteryListResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/lottery/LotteryListResponseDto.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/lottery/LotteryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/lottery/LotteryRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/lottery/LotteryRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/lottery/LotteryRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/lottery/LotteryResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/lottery/LotteryResponseDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/lottery/LotteryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/lottery/LotteryService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/security/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/user/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posttest/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/posttest/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/swagger/SwaggerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/user/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/user/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/user/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/posttest/src/main/java/com/kbtg/bootcamp/posttest/user/UserService.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,8 +68,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -110,7 +109,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -139,7 +138,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "advanced.settings",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -155,7 +154,7 @@
     <option name="localRunNotPublishedPersistedInfo">
       <LocalReportPersistedInfo>
         <option name="path" value="/private/var/folders/tv/9gmdd36d4ms4p04shtd09_b40000gn/T/qodana_output/qodana.sarif.json" />
-        <option name="reportGuid" value="615e6bc7-a2de-4a9f-8f7d-37e0cb5885e2" />
+        <option name="reportGuid" value="83d76f15-5948-4de9-8dc6-c04635d29f57" />
         <option name="reportName" value="assessment/qodana/2024-02-26" />
       </LocalReportPersistedInfo>
     </option>
@@ -165,7 +164,7 @@
   </component>
   <component name="QodanaReportsService">
     <option name="descriptions">
-      <ReportDescription localRun="true" path="/private/var/folders/tv/9gmdd36d4ms4p04shtd09_b40000gn/T/qodana_output/qodana.sarif.json" reportGuid="615e6bc7-a2de-4a9f-8f7d-37e0cb5885e2" reportId="assessment/qodana/2024-02-26" />
+      <ReportDescription localRun="true" path="/private/var/folders/tv/9gmdd36d4ms4p04shtd09_b40000gn/T/qodana_output/qodana.sarif.json" reportGuid="83d76f15-5948-4de9-8dc6-c04635d29f57" reportId="assessment/qodana/2024-02-26" />
     </option>
   </component>
   <component name="RecentsManager">
@@ -189,7 +188,9 @@
       </method>
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
-      <deployment type="docker-compose.yml" />
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
     <configuration name="posttest/docker-compose.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
@@ -233,7 +234,8 @@
       <workItem from="1708781486167" duration="1186000" />
       <workItem from="1708864274337" duration="1998000" />
       <workItem from="1708869078388" duration="10161000" />
-      <workItem from="1708920842847" duration="15230000" />
+      <workItem from="1708920842847" duration="17400000" />
+      <workItem from="1708953008147" duration="12997000" />
     </task>
     <task id="LOCAL-00001" summary="feat: REST API">
       <option name="closed" value="true" />
@@ -267,7 +269,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708924559759</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fix: CRUD Rest API with Dto &amp; Repository">
+      <option name="closed" value="true" />
+      <created>1708945001786</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708945001786</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,6 +288,8 @@
     <MESSAGE value="feat: Exception" />
     <MESSAGE value="feat: docker-compose with networks" />
     <MESSAGE value="feat: init sql and database set up" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: init sql and database set up" />
+    <MESSAGE value="fix: CRUD Rest API with Dto &amp; Repository" />
+    <MESSAGE value="fix: Lottery Class with Dto" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: Lottery Class with Dto" />
   </component>
 </project>

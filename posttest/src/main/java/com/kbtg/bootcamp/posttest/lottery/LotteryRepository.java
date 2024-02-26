@@ -9,16 +9,21 @@ import java.util.List;
 
 @Repository
 public interface LotteryRepository extends JpaRepository<Lottery, String>{
-    @Query("SELECT l FROM lotteries")
-    List<Lottery> findAllLottery();
 
-    @Query("INSERT INTO lotteries (id, price, amount) VALUES (:id, :price, :amount)")
+    @Query(value = "SELECT l FROM lotteries WHERE amount > 0",
+            nativeQuery = true)
+    List<Lottery> getLotteries();
+
+    @Query(value = "INSERT INTO lotteries (id, price, amount) VALUES (:id, :price, :amount)",
+            nativeQuery = true)
     void saveLottery(String id, Integer price, Integer amount);
 
-    @Query ("DELETE FROM lotteries WHERE id = :id")
+    @Query (value = "DELETE FROM lotteries WHERE id = :id",
+            nativeQuery = true)
     void deleteLottery(String id);
 
     @Modifying
-    @Query ("UPDATE loterries SET amount = :amount WHERE id = :id")
+    @Query (value = "UPDATE loterries SET amount = :amount WHERE id = :id",
+            nativeQuery = true)
     void updateLottery(String id, Integer amount);
 }
